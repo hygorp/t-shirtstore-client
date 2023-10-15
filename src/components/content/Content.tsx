@@ -32,7 +32,9 @@ export default async function Content() {
                     </div>
 
                     <div className={style.product_price}>
-                        <h1>$ {product.price.toFixed(2)}</h1>
+                        <h1>
+                            $ {product.price.toFixed(2)}
+                        </h1>
                     </div>
 
                     <div className={style.product_button}>
