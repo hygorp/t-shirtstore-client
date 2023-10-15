@@ -1,0 +1,31 @@
+.header {
+    width: auto;
+    height: 80px;
+    background-color: #000000;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-family: Bebas Neue, sans-serif;
+    font-size: xx-large;
+}
+
+.categories {
+    color: #FFFFFF;
+    font-family: Bebas Neue, sans-serif;
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+.categories li{
+    padding: 15px;
+    display: inline;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
